@@ -7,7 +7,7 @@ body, html {
   margin: 0; padding: 0; height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #bbbfc4;
-  background: url('tu-imagen.jpg') no-repeat center center fixed;
+  background: url('tu-imagen.JPG') no-repeat center center fixed;
   background-size: cover;
   position: relative;
   overflow-x: hidden;
