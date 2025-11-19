@@ -10,7 +10,7 @@
   --shadow: 0 6px 20px rgba(20,20,20,0.06);
 }
 
-html,body {
+body {
   transform: scale(0.9);
   transform-origin: top center;
   width: auto; /* corrige el encogimiento horizontal */
