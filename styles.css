@@ -246,7 +246,13 @@ body{
   .menu-toggle{ display:block }
   .header-inner{ align-items:center }
   .work-item{ flex-direction:column; align-items:flex-start }
+  
+  .site-footer {
+    padding: 16px 0;  /* menos alto en móviles */
+    font-size: 12px;  /* texto un poquito más pequeño */
+  }
 }
+
 
 .social-icons {
   margin-top: 24px;
