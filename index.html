@@ -4,62 +4,51 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Paul Vasquez Tecco</title>
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+CZ:wght@100..400&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playwright+Magyarország&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@400;700&display=swap" rel="stylesheet">
-
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Playwright+Magyarország&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="option4">
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <h1 class="name">Paul Vasquez Tecco</h1>
-        <h2 class="role">Composer</h2> 
+
+  <!-- Contenedor que aplica zoom -->
+  <div class="zoom">
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1 class="name">Paul Vasquez Tecco</h1>
+          <h2 class="role">Composer</h2> 
+        </div>
+
+        <nav class="nav">
+          <a href="#compositions">Compositions</a>
+          <a href="#works">Works</a> 
+          <a href="#bio">About me</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
       </div>
+    </header>
 
-      <nav class="nav">
-        <a href="#compositions">Compositions</a>
-        <a href="#works">Works</a> 
-        <a href="#bio">About me</a>
-        <a href="#contact">Contact</a>
-
-      </nav>
-
-      <button class="menu-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
-    </div>
-  </header>
-
-  <main>
-    <!-- Compositions: videos / audio links first -->
-    <section id="compositions" class="section compositions">
-        
-      <div class="container">
-        <h2 class="section-title">Compositions</h2>
-       <!-- <p class="lead">Excerpts, video & audio links. Coloca aquí tus enlaces de YouTube / Vimeo / SoundCloud primero.</p> -->
-
-        <ul class="works-list">
-          <!-- Repite / modifica cada item según necesites -->
-
+    <main>
+      <!-- Compositions: videos / audio links -->
+      <section id="compositions" class="section compositions">
+        <div class="container">
+          <h2 class="section-title">Compositions</h2>
+          <ul class="works-list">
             <li>
-          <strong>Derecho a la indentidad</strong><br>
-          <!-- <a href="https://soundcloud.com/tuusuario/temporada-invierno" target="_blank" rel="noopener noreferrer">Escuchar en SoundCloud</a> -->
-          <div class="video-wrapper">
-            <iframe src="https://drive.google.com/file/d/196_L0gpHhKhItIR2scttCAPUbX9QDudK/preview" title="Video Temporada de Invierno" allowfullscreen=""></iframe>
-          </div>
-        </li>
+              <strong>Derecho a la indentidad</strong>
+              <div class="video-wrapper">
+                <iframe src="https://drive.google.com/file/d/196_L0gpHhKhItIR2scttCAPUbX9QDudK/preview" allowfullscreen></iframe>
+              </div>
+            </li>
+            <!-- Resto de videos y works igual que antes -->
 
-
-
-
-          <li class="work-item">
+            <li class="work-item">
             <div class="meta">
               <h3 class="work-title">Sleep Cat</h3>
               <p class="work-sub"></p>
@@ -153,109 +142,51 @@
             </div>
           </li>
 
-        </ul>
-      </div>
-    </section>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Works: more details, single column text like the example you liked -->
-    <section id="works" class="section works">
-      <div class="container narrow">
-        <h2 class="section-title">Works</h2>
-        <article class="work-text">
-          <h3>Fragmentos de Aire (2025)</h3>
-          <p>For 2 flautas, triángulo, cuerdas y timbal <a href="#"></a></p>
-        <!--
-          <h3>Die Krähe (2024)</h3>
-          <p>For soprano and prepared piano. Text by Ida Dehmel. Premiere: 2024.</p>
+      <section id="works" class="section works">
+        <div class="container narrow">
+          <h2 class="section-title">Works</h2>
+          <article class="work-text">
+            <h3>Fragmentos de Aire (2025)</h3>
+            <p>For 2 flautas, triángulo, cuerdas y timbal</p>
+          </article>
+        </div>
+      </section>
 
-          <h3>Other selected works</h3>
-          <p>Lista compacta en un solo bloque de texto (sin tarjetas). Esto recuerda el diseño que pediste, como en <em>Works</em> de la referencia.</p>
-        -->
-        </article>
-
-      </div>
-    </section>
-  <!--
-        <section id="agenda" class="section agenda">
-      <div class="container">
-        <h2 class="section-title">Agenda</h2>
-        <p class="lead">Próximas presentaciones y fechas.</p>
-        <ul class="agenda-list">
-          <li>June 14, 2025 — New European Ensemble — Venue</li>
-          <li>Sept 2, 2025 — Cape Town Philharmonic — Venue</li>
-        </ul>
-      </div>
-    </section>
--->
-
-<!--
-      Seccion de Bio 
--->
-       <section id="bio" class="section contact">
-      <div class="container narrow">
-        <h2>About me</h2>
-        <p class="about-lead">
-          Soy compositor apasionado por crear música que conecta con las emociones y cuenta historias. Transformo ideas, sensaciones y paisajes sonoros en piezas únicas, cuidando cada detalle para lograr un sonido auténtico.
+      <section id="bio" class="section contact">
+        <div class="container narrow">
+          <h2>About me</h2>
+          <p class="about-lead">
+           Soy compositor apasionado por crear música que conecta con las emociones y cuenta historias. Transformo ideas, sensaciones y paisajes sonoros en piezas únicas, cuidando cada detalle para lograr un sonido auténtico.
 Trabajo en distintos estilos y atmósferas: desde melodías íntimas y minimalistas hasta composiciones dinámicas y envolventes. Me adapto a las necesidades del proyecto —canciones, bandas sonoras, ambientaciones o piezas experimentales— y siempre busco que la música tenga identidad propia.
 Para mí, cada obra es una experiencia: cada nota tiene un propósito y cada silencio, un significado. Si necesitas un sonido original y con intención, puedo aportar dirección creativa, texturas sonoras y arreglos cuidados que eleven tu proyecto.
         </p>       
-       </section>
-       
-    <section id="contact" class="section contact">
-      <div class="container narrow">
-        <h2 class="section-title">Contact</h2>
-        <p class="lead">paulvasqueztecco@gmail.com</p>
-<!--
-        <form id="contactForm" class="contact-form" action="#" method="post" onsubmit="return handleContact(event);">
-          <label>
-            <span>Nombre</span>
-            <input type="text" name="name" required />
-          </label>
+          </p>       
+        </div>
+      </section>
+    </main>
+    
+      <section id="contact" class="section contact">
+        <div class="container narrow">
+          <h2 class="section-title">Contact</h2>
+          <p class="lead">paulvasqueztecco@gmail.com</p>
 
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" required />
-          </label>
-
-          <label>
-            <span>Mensaje</span>
-            <textarea name="message" rows="5" required></textarea>
-          </label>
-
-          <div class="form-actions">
-            <button type="submit" class="btn-primary">Send</button>
+          <div class="social-icons">
+            <a href="https://soundcloud.com/paulvasq" target="_blank" aria-label="SoundCloud"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://www.instagram.com/paul_vasquez23/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
           </div>
-        </form>
-    -->
-        <div class="social-icons">
-            <!--
-  <a href="https://www.youtube.com/tu_canal" target="_blank" aria-label="YouTube">
-    <i class="fab fa-youtube"></i>
-  </a>
+        </div>
+      </section>
 
-  <a href="https://vimeo.com/tu_usuario" target="_blank" aria-label="Vimeo">
-    <i class="fab fa-vimeo"></i>
-  </a>
--->
-
-  <a href="https://soundcloud.com/paulvasq" target="_blank" aria-label="SoundCloud">
-    <i class="fab fa-soundcloud"></i>
-  </a>
-
-  <a href="https://www.instagram.com/paul_vasquez23/" target="_blank" aria-label="Instagram">
-    <i class="fab fa-instagram"></i>
-  </a>
-</div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Paul Vasquez Tecco — All Rights Reserved</p>
-      <p class="lang"></p>
-    </div>
-  </footer>
-
+  </div> <!-- Fin contenedor zoom -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Paul Vasquez Tecco — All Rights Reserved</p>
+      </div>
+    </footer>
 
   <script src="main.js"></script>
 </body>
