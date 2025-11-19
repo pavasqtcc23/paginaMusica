@@ -11,7 +11,7 @@
 }
 
 html,body {
-  transform: scale(0.9);
+  transform: scale(0.98);
   transform-origin: top center;
   width: 125%; /* corrige el encogimiento horizontal */
 }
