@@ -10,14 +10,12 @@
   --shadow: 0 6px 20px rgba(20,20,20,0.06);
 }
 
+*{box-sizing:border-box}
 body {
   transform: scale(0.8);
   transform-origin: top center;
-  width: auto; /* corrige el encogimiento horizontal */
+  width: auto;
 }
-
-*{box-sizing:border-box}
-
 body{
   margin:0;
   font-family: Inter, system-ui, -apple-system, "Helvetica Neue", Arial;
@@ -53,15 +51,84 @@ body{
   gap:20px;
 }
 
-/* brand */
-.brand .name{
-  margin:0;
-  font-size:20px;
-  letter-spacing:0.06em;
-  color:var(--text);
-  font-weight:700;
+/* Header: nombre y rol */
+.brand .name {
+  margin: 0;
+  font-size: 28px;          /* más grande que antes */
+  letter-spacing: 0.04em;
+  color: #2C2C2C;           /* más oscuro */
+  font-weight: 700;
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, Arial, sans-serif; /* juvenil, moderno */
 }
-.brand .role{ margin:0; font-size:13px; color:var(--muted)}
+
+.brand .role {
+  margin: 0;
+  font-size: 18px;
+  color:#4D8EA6;
+  font-weight: 400;
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, Arial, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.playwrite-hu-name {
+  font-family: "Playwrite HU", cursive;
+  font-weight: 400;   /* o 700 si quieres más grueso */
+  font-style: normal;
+  font-size: 28px;    /* tamaño más grande */
+  color: #2C2C2C;     /* color más oscuro */
+}
+
+
+
+
+.option1 .brand .name {
+  color: #2C2C2C;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+.option1 .nav a {
+  color: #D18F5A;
+}
+
+/* 2. Negro suave + verde oliva */
+.option2 .brand .name {
+  color: #1F1F1F;
+  font-size: 26px;
+  font-family: 'Playwright Magyarország', sans-serif;
+}
+.option2 .nav a {
+  color: #6B8E23;
+}
+
+/* 3. Gris azulado + lila grisáceo */
+.option3 .brand .name {
+  color: #20232A;
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+}
+.option3 .nav a {
+  color: #8A7CA5;
+}
+
+/* 4. Negro + azul petróleo */
+.option4 .brand .name {
+  color: #111111;
+  font-size: 26px;
+  font-family: 'Inter', sans-serif;
+}
+.option4 .nav a {
+  color: #4D8EA6;
+}
+
+/* 5. Gris oscuro + rosa lavanda pálido */
+.option5 .brand .name {
+  color: #1C1C1C;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+.option5 .nav a {
+  color: #C19AB7;
+}
 
 /* nav */
 .nav{
@@ -71,10 +138,13 @@ body{
 }
 .nav a{
   text-decoration:none;
-  color:var(--muted);
+  color:#d97742; /* naranja cálido y suave */
   font-size:14px;
 }
-.nav a:hover{ color:var(--text)}
+.nav a:hover{
+  color:#b85a20; /* más intenso al pasar el mouse */
+}
+
 
 /* mobile menu button */
 .menu-toggle{ display:none; background:none; border:0; font-size:20px; cursor:pointer; color:var(--muted) }
