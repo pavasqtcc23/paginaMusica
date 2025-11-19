@@ -251,3 +251,15 @@ main { flex: 1; }
   .nav.active{ display:flex; }
   .menu-toggle{ display:block; }
 }
+
+.contact-image {
+  margin-top: 20px;
+  text-align: center; /* centra la imagen */
+}
+
+.contact-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px; /* opcional, bordes redondeados */
+  box-shadow: 0 6px 20px rgba(20,20,20,0.06); /* opcional, sombra suave */
+}
