@@ -10,6 +10,12 @@
   --shadow: 0 6px 20px rgba(20,20,20,0.06);
 }
 
+html {
+  transform: scale(0.8);
+  transform-origin: top center;
+  width: 125%; /* corrige el encogimiento horizontal */
+}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
