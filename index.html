@@ -1,149 +1,286 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Paul Vasquez - Composer</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-
-<!-- FontAwesome para iconos -->
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
-
-  
- 
-
-
-<link rel="stylesheet" href="styles.css" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paul Vasquez Tecco</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 <body>
-  <header id="header" title="Volver al inicio" role="banner" tabindex="0">
-  <button id="header-icon" aria-label="Ir al inicio">
-    Paul Vasquez Tecco
-  </button>
-</header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="name">Paul Vasquez Tecco</h1>
+        <h2 class="role">Composer</h2> 
+      </div>
 
+      <nav class="nav">
+        <a href="#compositions">Compositions</a>
+        <a href="#works">Works</a> 
+        <a href="#bio">About me</a>
+        <a href="#contact">Contact</a>
 
-  <div id="container">
-    <nav role="navigation">
-      <a href="#musica">Composiciones</a>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
+      </nav>
 
-    <section id="musica">
-      <h2>Composiciones</h2>
-      <ul>
-        <li>
-          <strong>Derecho a la indentidad</strong><br />
+      <button class="menu-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Compositions: videos / audio links first -->
+    <section id="compositions" class="section compositions">
+        
+      <div class="container">
+        <h2 class="section-title">Compositions</h2>
+       <!-- <p class="lead">Excerpts, video & audio links. Coloca aquí tus enlaces de YouTube / Vimeo / SoundCloud primero.</p> -->
+
+        <ul class="works-list">
+          <!-- Repite / modifica cada item según necesites -->
+
+            <li>
+          <strong>Derecho a la indentidad</strong><br>
           <!-- <a href="https://soundcloud.com/tuusuario/temporada-invierno" target="_blank" rel="noopener noreferrer">Escuchar en SoundCloud</a> -->
           <div class="video-wrapper">
-            <iframe src="https://drive.google.com/file/d/196_L0gpHhKhItIR2scttCAPUbX9QDudK/preview" title="Video Temporada de Invierno" allowfullscreen></iframe>
+            <iframe src="https://drive.google.com/file/d/196_L0gpHhKhItIR2scttCAPUbX9QDudK/preview" title="Video Temporada de Invierno" allowfullscreen=""></iframe>
           </div>
         </li>
-        <li>
-          <!-- <strong>Sueños Lejanos</strong> - Tema ambiental electrónico<br /> -->
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1738900818&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-                  </iframe>    
-        </li>
-        <li>
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1370712928&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-               </iframe>
-        </li>
 
 
 
 
-        <li>
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1366347586&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">    
-                  </iframe>
-        </li>
+          <li class="work-item">
+            <div class="meta">
+              <h3 class="work-title">Sleep Cat</h3>
+              <p class="work-sub"></p>
+              <div class="links">
+                <!--<a class="btn-link" data-type="video" data-src="https://www.youtube.com/embed/VIDEO_ID">Watch</a> 
+                <a class="btn-link" href="https://soundcloud.com/paulvasq/sleep-cat?si=e8caa8ec9cd04a5388496e2c27c13901&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener"></a>
+              -->
+             
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay"
+               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1738900818&color=%232d2d2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+               <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/paulvasq" title="Paul Vasquez Tecco" target="_blank" style="color: #cccccc; text-decoration: none;">Paul Vasquez Tecco</a> · <a href="https://soundcloud.com/paulvasq/sleep-cat" title="Sleep Cat" target="_blank" style="color: #cccccc; text-decoration: none;">Sleep Cat</a></div>
+            </div>
+          </li>
 
-        <li>
-           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1366076326&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-                        
-                     </iframe>
-        </li>
-       <li>
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1738686069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-                     </iframe>
-        </li> 
+          
+
+          <li class="work-item">
+            <div class="meta">
+              <h3 class="work-title">Road</h3>
+              <p class="work-sub"></p>
+              <div class="links">
+        
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1738900428&color=%232d2d2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/paulvasq" title="Paul Vasquez Tecco" target="_blank" style="color: #cccccc; text-decoration: none;">Paul Vasquez Tecco</a> · <a href="https://soundcloud.com/paulvasq/road" title="Road" target="_blank" style="color: #cccccc; text-decoration: none;">Road</a></div>
+              </div>
+            </div>
+          </li>
+
+           
 
 
-    <!-- </ul>
-      <p><em>Reemplaza los enlaces con los tuyos propios para que funcione perfectamente.</em></p>-->
-    </section>
 
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
-       <p class="about-lead">
-    Soy compositor apasionado por crear música que conecta con las emociones y cuenta historias.
-    Transformo ideas, sensaciones y paisajes sonoros en piezas únicas, cuidando cada detalle para lograr un sonido auténtico.
-  </p>
 
-  <div class="about-body">
-    <p>
-      Trabajo en distintos estilos y atmósferas: desde melodías íntimas y minimalistas hasta composiciones
-      dinámicas y envolventes. Me adapto a las necesidades del proyecto —canciones, bandas sonoras,
-      ambientaciones o piezas experimentales— y siempre busco que la música tenga identidad propia.
-    </p>
 
-    <p>
-      Para mí, cada obra es una experiencia: cada nota tiene un propósito y cada silencio, un significado.
-      Si necesitas un sonido original y con intención, puedo aportar dirección creativa, texturas
-      sonoras y arreglos cuidados que eleven tu proyecto.
-    </p>
-    </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <!-- <p>¿Quieres trabajar conmigo? Escríbeme:</p>
-      <address>
-        Email: <a href="mailto:paulvasquez@email.com" style="color:#a3adb8;">paulvasquez@email.com</a><br />
-        Teléfono: <a href="tel:+5491112345678" style="color:#a3adb8;">+54 9 11 1234 5678</a>
-      </address>
-    -->
-      <div class="iconos" aria-label="Redes y contacto">
-        <a href="https://soundcloud.com/paulvasq" target="_blank" rel="noopener noreferrer" title="SoundCloud">
-          <i class="fab fa-soundcloud"></i>
-        </a>
-        <a href="https://wa.link/62gd2f" target="_blank" rel="noopener noreferrer" title="WhatsApp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="mailto:paulvasqueztecco@gmail.com" title="Correo Electrónico">
-          <i class="fas fa-envelope"></i>
-        </a>
+          <li class="work-item">
+            <div class="meta">
+              <h3 class="work-title">Relato</h3>
+              <p class="work-sub"></p>
+              <div class="links">
+
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1738899549&color=%232d2d2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/paulvasq" title="Paul Vasquez Tecco" target="_blank" style="color: #cccccc; text-decoration: none;">Paul Vasquez Tecco</a> · <a href="https://soundcloud.com/paulvasq/relato" title="Relato" target="_blank" style="color: #cccccc; text-decoration: none;">Relato</a></div>
+              </div>
+            </div>
+          </li>
+
+
+
+          <li class="work-item">
+            <div class="meta">
+              <h3 class="work-title">Calm Sea</h3>
+              <p class="work-sub"></p>
+              <div class="links">
+         <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1738685925&color=%232d2d2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+
+         </iframe>
+         <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/paulvasq" title="Paul Vasquez Tecco" target="_blank" style="color: #cccccc; text-decoration: none;">Paul Vasquez Tecco</a> · <a href="https://soundcloud.com/paulvasq/calm-sea" title="Calm Sea" target="_blank" style="color: #cccccc; text-decoration: none;">Calm Sea</a></div>
+
+            </div>
+          </li>
+
+
+
+
+          <li class="work-item">
+            <div class="meta">
+              <h3 class="work-title">Island</h3>
+              <p class="work-sub"></p>
+              <div class="links">
+
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1738686069&color=%232d2d2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/paulvasq" title="Paul Vasquez Tecco" target="_blank" style="color: #cccccc; text-decoration: none;">Paul Vasquez Tecco</a> · <a href="https://soundcloud.com/paulvasq/island" title="Island" target="_blank" style="color: #cccccc; text-decoration: none;">Island</a></div>
+              </div>
+            </div>
+          </li>
+
+           
+
+          <!-- placeholder item to show many works in one flow -->
+          <li class="work-item">
+            <div class="meta">
+              <h3 class="work-title">MORE ..</h3>
+             <!-- <p class="work-sub">Orchestra</p>-->
+              <div class="links">
+               <!-- <a class="btn-link" data-type="video" data-src="https://www.youtube.com/embed/VIDEO_ID">Watch</a>-->
+                <a class="btn-link" href="https://soundcloud.com/paulvasq" target="_blank" rel="noopener">SoundCloud</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
       </div>
-<!--
-      <form action="mailto:paulvasqueztecco@gmail.com" method="post" enctype="text/plain">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="Nombre" required />
-
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="Correo" required />
-
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
-
-        <button type="submit">Enviar Mensaje</button>
-      </form>
     </section>
 
-    <footer>
-      © 2025 Paul Vasquez Tecco - CompositorS
-    </footer>
+    <!-- Works: more details, single column text like the example you liked -->
+    <section id="works" class="section works">
+      <div class="container narrow">
+        <h2 class="section-title">Works</h2>
+        <article class="work-text">
+          <h3>Fragmentos de Aire (2025)</h3>
+          <p>For 2 flautas, triángulo, cuerdas y timbal <a href="#"></a></p>
+        <!--
+          <h3>Die Krähe (2024)</h3>
+          <p>For soprano and prepared piano. Text by Ida Dehmel. Premiere: 2024.</p>
+
+          <h3>Other selected works</h3>
+          <p>Lista compacta en un solo bloque de texto (sin tarjetas). Esto recuerda el diseño que pediste, como en <em>Works</em> de la referencia.</p>
+        -->
+        </article>
+
+      </div>
+    </section>
+  <!--
+        <section id="agenda" class="section agenda">
+      <div class="container">
+        <h2 class="section-title">Agenda</h2>
+        <p class="lead">Próximas presentaciones y fechas.</p>
+        <ul class="agenda-list">
+          <li>June 14, 2025 — New European Ensemble — Venue</li>
+          <li>Sept 2, 2025 — Cape Town Philharmonic — Venue</li>
+        </ul>
+      </div>
+    </section>
+-->
+
+<!--
+      Seccion de Bio 
+-->
+       <section id="bio" class="section contact">
+      <div class="container narrow">
+
+
+
+
+
+
+
+        <h2>About me</h2>
+
+
+        <p class="about-lead">
+          Soy compositor apasionado por crear música que conecta con las emociones y cuenta historias. Transformo ideas, sensaciones y paisajes sonoros en piezas únicas, cuidando cada detalle para lograr un sonido auténtico.
+
+Trabajo en distintos estilos y atmósferas: desde melodías íntimas y minimalistas hasta composiciones dinámicas y envolventes. Me adapto a las necesidades del proyecto —canciones, bandas sonoras, ambientaciones o piezas experimentales— y siempre busco que la música tenga identidad propia.
+
+Para mí, cada obra es una experiencia: cada nota tiene un propósito y cada silencio, un significado. Si necesitas un sonido original y con intención, puedo aportar dirección creativa, texturas sonoras y arreglos cuidados que eleven tu proyecto.
+        </p>
+        
+       </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <h2 class="section-title">Contact</h2>
+        <p class="lead">paulvasqueztecco@gmail.com</p>
+<!--
+        <form id="contactForm" class="contact-form" action="#" method="post" onsubmit="return handleContact(event);">
+          <label>
+            <span>Nombre</span>
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            <span>Mensaje</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Send</button>
+          </div>
+        </form>
+    -->
+        <div class="social-icons">
+            <!--
+  <a href="https://www.youtube.com/tu_canal" target="_blank" aria-label="YouTube">
+    <i class="fab fa-youtube"></i>
+  </a>
+
+  <a href="https://vimeo.com/tu_usuario" target="_blank" aria-label="Vimeo">
+    <i class="fab fa-vimeo"></i>
+  </a>
+-->
+
+  <a href="https://soundcloud.com/paulvasq" target="_blank" aria-label="SoundCloud">
+    <i class="fab fa-soundcloud"></i>
+  </a>
+
+  <a href="https://www.instagram.com/paul_vasquez23/" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Paul Vasquez Tecco — All Rights Reserved</p>
+      <p class="lang"></p>
+    </div>
+  </footer>
+
+  <!-- Video modal -->
+  <div id="mediaModal" class="media-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <div class="media-wrap" id="mediaWrap"></div>
+    </div>
   </div>
 
-  <!-- JS -->
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
-
-
